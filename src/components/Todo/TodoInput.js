@@ -6,7 +6,7 @@ function TodoInput() {
 
   const { addTodo } = useContext(TodoInputContext);
 
-  console.log(addTodo);
+  // console.log(addTodo);
 
   function handleTodoSubmit(e) {
     e.preventDefault();
